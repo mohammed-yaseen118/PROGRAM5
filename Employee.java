@@ -17,6 +17,8 @@ public class Employee {
     }
     public static void main(String[] args) {
         Employee emp = new Employee("darshan ", 071, 50000.0, "Engineering");
+        Employee emp2 = new Employee("Rehan ", 071, 50000.0, "Engineering");
         emp.display();
+        emp2.display();
     }
 }
